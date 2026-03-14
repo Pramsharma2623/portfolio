@@ -16,8 +16,8 @@ export const resumeData = {
     email: "sharmapramod0321@gmail.com",
     phone: "+91 7678553327",
     links: [
-      { name: "LinkedIn", url: "#" },
-      { name: "GitHub", url: "#" }
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/pramod-kumar-b1063a250/" },
+      { name: "GitHub", url: "https://github.com/Pramsharma2623" }
     ]
   },
   experience: [
