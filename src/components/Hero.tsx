@@ -88,7 +88,7 @@ export function Hero() {
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px] rounded-full sm:rounded-[3rem] border-2 border-dashed border-white/20 flex flex-col items-center justify-center bg-white/5 overflow-hidden group hover:border-[var(--color-primary)]/50 transition-colors duration-500">
               {
                 
-                <img src="WhatsApp Image 2026-03-14 at 1.53.10 AM.jpeg" alt="Pramod Kumar" className="w-full h-full object-cover" />
+                <img src="src\assets\WhatsApp Image 2026-03-14 at 1.53.10 AM.jpeg" alt="Pramod Kumar" className="w-full h-full object-cover" />
               }
               {/* <User className="w-16 h-16 text-white/20 group-hover:text-[var(--color-primary)]/50 mb-4 transition-colors duration-500" />
               <span className="text-[var(--color-text-muted)] font-mono text-sm group-hover:text-[var(--color-primary)] transition-colors duration-500 text-center px-4">

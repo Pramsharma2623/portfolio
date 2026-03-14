@@ -1,3 +1,12 @@
+import sihWinnerImg from "./assets/WhatsApp Image 2026-03-14 at 1.25.43 AM.jpeg";
+import govtIntegrationImg from "./assets/WhatsApp Image 2026-03-14 at 1.26.23 AM.jpeg";
+import timetableProjectImg from "./assets/WhatsApp Image 2026-03-14 at 1.47.34 AM.jpeg";
+import ideathonWinnerImg from "./assets/WhatsApp Image 2026-03-14 at 1.26.49 AM.jpeg";
+import ideathon8Img from "./assets/WhatsApp Image 2026-03-14 at 1.27.35 AM.jpeg";
+import timetableGeneratorImg from "./assets/WhatsApp Image 2026-03-14 at 1.47.33 AM.jpeg";
+import fashionovaImg from "./assets/Screenshot (3).png";
+import whatsappAnalyzerImg from "./assets/imgonline_com_ua_resize_rcSpv7weHduTCr.webp";
+
 export const resumeData = {
   basics: {
     name: "Pramod Kumar",
@@ -39,34 +48,34 @@ export const resumeData = {
     {
       title: "Smart India Hackathon (SIH) 2025 Winner",
       context: "Secured 1st Position at India's largest national hackathon; awarded 1.5 Lakh cash prize.",
-      image: "WhatsApp Image 2026-03-14 at 1.25.43 AM.jpeg"
+      image: sihWinnerImg
     },
     {
       title: "Government Integration Initiative",
       "context": "SIH winning solution currently under integration with the Department of Higher and Technical Education, Government of Jharkhand.",
-      image: "WhatsApp Image 2026-03-14 at 1.26.23 AM.jpeg"
+      image: govtIntegrationImg
     },
     {
       title: "Institutional Timetable Optimization Project (2025)",
       context: "Solution impressed university leadership, leading to direct assignment by the Vice Chancellor and official pilot procurement worth 5 Lakh.",
-      image: "WhatsApp Image 2026-03-14 at 1.47.34 AM.jpeg"
+      image: timetableProjectImg
     },
     {
       title: "Ideathon 2025 Winner",
       context: "Secured 1st Position among 70+ teams from 15+ colleges for innovative real-world problem solving.",
-      image: "WhatsApp Image 2026-03-14 at 1.26.49 AM.jpeg"
+      image: ideathonWinnerImg
     },
     {
       title: "Ideathon 8.0 (2025)",
       context: "Secured 2nd Position; awarded 8,000 cash prize for innovation and prototyping.",
-      image: "WhatsApp Image 2026-03-14 at 1.27.35 AM.jpeg"
+      image: ideathon8Img
     }
   ],
   projects: [
     {
       title: "Optimal Timetable Generator",
       stack: ["Python", "Django", "Metaheuristic Algorithm"],
-      image: "WhatsApp Image 2026-03-14 at 1.47.33 AM.jpeg",
+      image: timetableGeneratorImg,
       bullets: [
         "Developed a web-based system to automate clash-free academic timetable generation for higher education institutions.",
         "Applied a Metaheuristic Optimization Algorithm to efficiently handle faculty availability, room capacity, and workload constraints.",
@@ -79,7 +88,7 @@ export const resumeData = {
     {
       title: "Fashionova",
       stack: ["React", "Node.js", "Express.js", "MongoDB"],
-      image: "Screenshot (3).png",
+      image: fashionovaImg,
       bullets: [
         "Developed a full-stack e-commerce fashion platform covering complete user flow including browsing, cart, checkout, and order placement.",
         "Implemented a dynamic shopping cart with real-time quantity-based price calculation and state management.",
@@ -92,7 +101,7 @@ export const resumeData = {
     {
       title: "WhatsApp Chat Analyzer",
       stack: ["Python", "Pandas", "Matplotlib", "Scikit-learn"],
-      image: "imgonline_com_ua_resize_rcSpv7weHduTCr.webp",
+      image: whatsappAnalyzerImg,
       bullets: [
         "Developed a Python-based system to analyze WhatsApp group chat data and extract meaningful insights.",
         "Parsed raw WhatsApp chat (.txt) files using Regex and converted them into structured data using Pandas.",
